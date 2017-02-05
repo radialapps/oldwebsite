@@ -15,23 +15,24 @@
 { 
     margin:0 auto;
     padding:0;
+	font-weight:bold;
     text-align:center; /* Alignment of each top-level menu items within the UL */
     width:100%;
     font-size:0;
-    background:#333333;
+    background:#2a2a2a;
     display:inline-block;
     list-style:none;
     position:relative;
     z-index:999999990; 
     border-radius:2px;
-padding-top:2px;
+padding-top:0px;
 }
 
 #ddmenu li
 {
     margin:0;
     padding:0;
-    font-size:15px;
+    font-size:14px;
     display:inline-block;   
     *display:inline;zoom:1; /*for IE6-7*/
     position:relative;
@@ -51,14 +52,14 @@ padding-top:2px;
 
 #ddmenu .over
 {
-    color:#333333;
-background-color:#f3f3f3;
-border-radius:3px 3px 0 0;
+    color:#ffffff;
+background-color:#e64646;
+border-radius:0 0 0 0;
 }
 
 #ddmenu .over.no-sub {
-    color:#fff;
-background-color:#666;
+    color:#ffffff;
+background-color:e64646;
 }
 
 #ddmenu .top-heading
@@ -66,6 +67,7 @@ background-color:#666;
     font-weight:normal;
     white-space:nowrap;
     margin:0 22px;
+	font-weight:bold;
     color:inherit;
     text-decoration:none;
     display:inline-block; 
@@ -80,7 +82,7 @@ background-color:#666;
 }
 #ddmenu a:hover
 {
-    text-decoration:underline;
+    
 }
 
 #ddmenu a:focus
@@ -112,7 +114,7 @@ background-color:#666;
 {
     width:auto;    
     left:0px;
-    color:#333333;   
+    color:#2a2a2a;   
     padding:0;margin:0;display:none;position:absolute;overflow:hidden;
     top:100%;    
     border:1px solid #bbb;border-top:none;
@@ -142,9 +144,9 @@ box-shadow: 0px 6px 6px rgba(0,0,0,0.175);
 
 #ddmenu .dd-inner {
     text-align:center;
-    padding:20px;
+    padding:14px;
     margin:0px;
-    background-color:#f3f3f3;
+    background-color:#2a2a2a;
     white-space:nowrap;
     font-size:13px;
 }
@@ -156,10 +158,10 @@ box-shadow: 0px 6px 6px rgba(0,0,0,0.175);
 
 #ddmenu ul ul li
 {
-    font-size:13px;
-    padding:6px 0; /*It determines the line height*/
+    font-size:14px;
+    padding:10px 0; /*It determines the line height*/
     color:inherit;
-    line-height:1;
+    line-height:1.45;
     margin:0;display:block;position:static;background:none;border:none;transition:none;border-radius:0;
 }
   
@@ -168,16 +170,15 @@ box-shadow: 0px 6px 6px rgba(0,0,0,0.175);
 
 #ddmenu .dropdown a
 {
-    color:#333;
-    line-height:1;
+	font-size: 14px;
+    color:#FFFFFF;
     text-decoration:none;
     transition:color 0.4s;
 }
 
 #ddmenu .dropdown a:hover, #ddmenu .dropdown a:focus
 {
-    text-decoration:underline;
-    color:#0099FF;
+    color:#e64646;
 }
 
 /* blocks within the sub-menu
