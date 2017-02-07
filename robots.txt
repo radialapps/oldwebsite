@@ -1,1 +1,0 @@
-User-agent: * Disallow: /ddmenu/ Disallow: /linux/ddmenu/ Disallow: /mac/ddmenu/
