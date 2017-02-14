@@ -17,6 +17,8 @@
     function labnolThumb(id) {
         var thumb = '<img src="https://i.ytimg.com/vi/ID/maxresdefault.jpg">',
             play = '<div class="play"></div>';
+		if(document.title.includes("Rhen")||document.title.includes("Fate"))thumb='<img src="https://i.ytimg.com/vi/ID/0.jpg">';
+		
         return thumb.replace("ID", id) + play;
     }
 
