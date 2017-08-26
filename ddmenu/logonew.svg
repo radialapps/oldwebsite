@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 135.46666 135.46667"
+   height="512"
+   width="512">
+  <title
+     id="title6191">RadialApps</title>
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>RadialApps</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     id="layer2">
+    <rect
+       y="29.481476"
+       x="29.312721"
+       height="76.937057"
+       width="76.937057"
+       id="rect4485"
+       style="fill:#6e55a0;fill-opacity:1;stroke:#ff0041;stroke-width:3.06294322;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.40886703" />
+    <rect
+       transform="matrix(0.70813581,-0.70607625,0.70813581,0.70607625,0,0)"
+       y="58.573288"
+       x="-36.729481"
+       height="74.683067"
+       width="74.683067"
+       id="rect4485-2"
+       style="display:inline;fill:#6e55a0;fill-opacity:1;stroke:#ff0041;stroke-width:2.97320938;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.42009134" />
+  </g>
+  <g
+     style="display:inline"
+     transform="translate(0,-161.53332)"
+     id="layer1">
+    <path
+       id="path4499"
+       d="m 126.15122,228.04445 c -44.1159,35.3845 -70.18605,37.36863 -117.5985953,0 47.4125453,-37.36863 73.4826943,-35.3845 117.5985953,0 z"
+       style="fill:#ffffff;stroke:#be0041;stroke-width:5.29166651;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1" />
+  </g>
+  <g
+     style="display:inline"
+     id="layer4">
+    <ellipse
+       ry="26.596186"
+       rx="26.603916"
+       cy="227.89182"
+       cx="68.155975"
+       id="path4487"
+       style="display:inline;fill:#f5c300;fill-opacity:1;stroke:#be0041;stroke-width:5.0054574;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="translate(0,-161.53332)" />
+    <path
+       d="m 81.315223,204.25332 a 26.603916,26.596186 0 0 1 13.132411,26.38953 26.603916,26.596186 0 0 1 -19.28455,22.29551 l -7.109587,-25.6289 z"
+       id="path4487-0"
+       style="display:inline;fill:#ff723d;fill-opacity:1;stroke:#be0041;stroke-width:5.0054574;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="translate(0,-161.53332)" />
+  </g>
+</svg>
