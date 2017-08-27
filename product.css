@@ -44,6 +44,7 @@ img.esrb {
 img.gameicon {
     width:40%;
     display: inline;
+    border-radius: 8px;
 }
 
 div.main {
