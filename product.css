@@ -67,6 +67,12 @@ div.rightwindow {
     padding: 10px;
 }
 
+div.demobuybuttons {
+    width:45%;
+    margin-top:-30%;
+    margin-left:43%;
+}
+
 hr.sep {
     color:#919090; background-color:#f0f0f0; height:1px; border:none;
 }
