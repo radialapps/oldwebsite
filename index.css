@@ -13,7 +13,7 @@ img.zoomImage.small {
     width:16.66%;
 }
 img.zoomImage:hover {
-  outline: 5px solid #673AB7;
+  outline: 0.35vw solid #673AB7;
   outline-offset: -2px;
   transform: scale(1.05);
   -ms-transform: scale(1.05);

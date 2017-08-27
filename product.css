@@ -40,12 +40,12 @@ img.banner {
 
 img.screenshot {
     width:30%;
-    outline: 1px solid #673AB7;
+    outline: 0px solid #673AB7;
 }
 
 img.screenshot:hover {
-  outline: 5px solid #673AB7;
-  outline-offset: -4px;
+  outline: 0.35vw solid #673AB7;
+  outline-offset: -2px;
 }
 
 img.esrb {
@@ -58,7 +58,7 @@ img.esrb {
 img.gameicon {
     width:40%;
     display: inline;
-    border-radius: 8px;
+    border-radius: 0.6vw;
 }
 
 div.main {
@@ -105,7 +105,7 @@ button {
     font-size:1.5vw;
     
     border: none;
-    border-radius: 4px;
+    border-radius: 0.35vw;
     color: white;
     padding: 4px;
     text-align: center;
@@ -137,12 +137,12 @@ button:not([disabled]) span:after {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -1.5vw;
   transition: 0.5s;
 }
 
 button:not([disabled]):hover span {
-  padding-right: 15px;
+  padding-right: 1.3vw;
 }
 
 button:not([disabled]):hover span:after {
@@ -151,15 +151,9 @@ button:not([disabled]):hover span:after {
 }
 
 button.demo {
-    /*background-color: #008CBA;*/
     background-color: #673AB7;
 }
 
-button.demo:hover {
-
-}
-
 button.buy {
-    /* background-color: #4CAF50; */
     background-color: #388E3C;
 }
