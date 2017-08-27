@@ -1,0 +1,21 @@
+img.zoomImage {
+  -moz-transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  outline: 0px solid #673AB7;
+}
+
+img.zoomImage.wide {
+    width:51%;
+}
+img.zoomImage.small {
+    width:16.66%;
+}
+img.zoomImage:hover {
+  outline: 5px solid #673AB7;
+  outline-offset: -2px;
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
