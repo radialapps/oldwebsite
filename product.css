@@ -110,7 +110,13 @@ button {
     cursor: pointer;
 }
 
-button span {
+button[disabled]{
+  color: #666666;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button:not([disabled]) span {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -118,7 +124,7 @@ button span {
 }
 
 
-button span:after {
+button:not([disabled]) span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -127,11 +133,11 @@ button span:after {
   transition: 0.5s;
 }
 
-button:hover span {
+button:not([disabled]):hover span {
   padding-right: 15px;
 }
 
-button:hover span:after {
+button:not([disabled]):hover span:after {
   opacity: 1;
   right: 0;
 }
