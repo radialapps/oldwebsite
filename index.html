@@ -18,12 +18,12 @@
 	<script type="text/javascript">
 		function yourOS(num) {
 		var ua = navigator.userAgent.toLowerCase();
-		if (ua.indexOf("win") != -1) {
+		if (ua.indexOf("linux") != -1) {
 			os="linux/";
 		} else if (ua.indexOf("mac") != -1) {
 			os="mac/";
 		} else {
-			os="linux/";
+			os="mac/";
 		}
 		window.location.href = os+num+".html";
 		}
