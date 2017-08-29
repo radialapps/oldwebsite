@@ -1,5 +1,5 @@
 body {
-	font-size: 12pt;
+	font-size: 1em;
 	font-style: normal;
     font-family: Trebuchet MS;
     margin:0;
@@ -35,11 +35,11 @@ img {
 }
 
 img.banner {
-    width:90%;
+    width:100%;
 }
 
 img.screenshot {
-    width:30%;
+    width:48%;
     outline: 0px solid #673AB7;
 }
 
@@ -55,37 +55,50 @@ img.esrb {
     margin-top:-4%;
 }
 
-img.gameicon {
-    width:40%;
-    display: inline;
-    border-radius: 0.6vw;
-}
-
 div.main {
-    width:80%; 
+    width:100%; 
     margin:0 auto;
     background-color:white;
-    padding: 20px 20px 20px 20px; 
-    box-shadow: 10px 10px 5px grey;
+    padding: 0.0em;
+    display: flex; 
+    flex-direction: column;
+    
 }
 
 div.description {    
-    width:50%; 
-    margin:20 auto;
+    order: 2;
+    width:90%; 
     background-color:white; 
-    padding: 10px 10px 10px 5%;
+    padding: 0.4em;
     float: left;
 }
 
 div.rightwindow {
-    margin-left: 55%;
-    padding: 10px;
+    order: 1;
+    padding: 0.4em;
+}
+
+div.lowerbanner {
+    order: 5;
+}
+
+div.allelse {
+    width:90%;
+    padding:0.4em;
+    order:3;
+}
+
+img.gameicon {
+    width:7em;
+    display: inline;
+    border-radius: 0.6vw;
+    margin-left: 2em;
 }
 
 div.demobuybuttons {
-    width:45%;
-    margin-top:-30%;
-    margin-left:43%;
+    width:40%;
+    margin-top:-5.8em;  
+    margin-left:10em;
 }
 
 hr.sep {
@@ -99,20 +112,17 @@ blockquote span{
 button {
     font-family: Trebuchet MS;
     background-color: #4CAF50; /* Green */
-    
     color: white; 
     width:100%;
-    font-size:1.5vw;
-    
+    font-size:0.8em;
     border: none;
     border-radius: 0.35vw;
-    color: white;
-    padding: 4px;
+    padding: 0.5vw;
     text-align: center;
     text-decoration: none;
     display: inline; 
     vertical-align: middle;
-    margin: 2px 2px;
+    margin: 0.3em;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -156,4 +166,61 @@ button.demo {
 
 button.buy {
     background-color: #388E3C;
+}
+
+@media only screen and (min-device-width: 480px){
+    div.main {
+        width:80%;
+        padding: 0.625em;
+        box-shadow: 10px 10px 5px grey;
+        display:inline-block;
+        margin-left:10%
+    }
+    
+    img.gameicon {
+        width:40%;
+        display: inline;
+        border-radius: 0.6vw;
+        margin-top:10%;
+        margin-left: 0%;
+    }
+    
+    div.demobuybuttons {
+        width:45%;
+        margin-top:-31%;
+        margin-left:43%;
+    }   
+    
+    img.banner {
+        width:90%;
+    }
+    div.rightwindow {
+        margin-top:-4%;
+        padding: 0.625em;
+        margin-left: 55%;
+    }
+    
+    div.demobuybuttons {
+        margin-top:-31%;
+    }
+
+    div.allelse {
+        width:100%;
+        padding:0%;
+        order:3;
+    }
+    
+    img.screenshot {
+        width:30%;
+    }
+
+    div.description {    
+        width:47%;
+        padding: 0em 0em 0em 5%;
+    }
+    button {
+        font-size:1.5vw;
+        line-height:1.5vw;
+        margin: 0.2vw 0.2vw;
+    }
 }
