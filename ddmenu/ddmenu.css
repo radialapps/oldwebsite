@@ -16,7 +16,7 @@
     z-index:10;
 }
 
-@media only screen and (min-device-width: 721px){
+@media only screen and (min-width: 769px){
     #logo{
         width:calc(5em + 8%);
         left: 0.5em;
@@ -249,7 +249,7 @@ border-bottom:1px solid #333;
 
 
 /*styles for mobile*/
-@media only screen and (max-width: 720px) 
+@media only screen and (max-width: 768px) 
 {
     #ddmenu .column.mayHide {
         display:none;
