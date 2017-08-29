@@ -21,9 +21,9 @@ ul, h2 {
 
 ul.instructions {
     float: left;
-    width:100%;
-    margin-top:-50px;
-    margin-left:20px;
+    width:90%;
+    margin-top:-3em;
+    margin-left:1.5em;
 }
 
 img {
@@ -35,7 +35,7 @@ img {
 }
 
 img.banner {
-    width:100%;
+    width:102%;
 }
 
 img.screenshot {
@@ -83,8 +83,8 @@ div.lowerbanner {
 }
 
 div.allelse {
-    width:90%;
-    padding:0.4em;
+    word-wrap: break-word;
+    width:100%;
     order:3;
 }
 
@@ -96,8 +96,7 @@ img.gameicon {
 }
 
 img.bigimage {
-    margin-left:-0.4em;
-    width:112%;
+    width:102%;
 }
 
 div.demobuybuttons {
@@ -176,6 +175,11 @@ button.buy {
 @media only screen and (min-device-width: 480px){
     body {
         font-size: 1em;
+    }
+
+    ul.instructions {
+        width:90%;
+        padding-right:10%;
     }
 
     div.main {
