@@ -95,6 +95,11 @@ img.gameicon {
     margin-left: 2em;
 }
 
+img.bigimage {
+    margin-left:-0.4em;
+    width:112%;
+}
+
 div.demobuybuttons {
     width:40%;
     margin-top:-5.8em;  
@@ -152,7 +157,7 @@ button:not([disabled]) span:after {
 }
 
 button:not([disabled]):hover span {
-  padding-right: 1.3vw;
+  padding-right: 0.8em;
 }
 
 button:not([disabled]):hover span:after {
@@ -212,6 +217,11 @@ button.buy {
     
     img.screenshot {
         width:30%;
+    }
+
+    img.bigimage {
+        margin-left:0;
+        width:70%;
     }
 
     div.description {    

@@ -3,8 +3,9 @@
         height: 0;
         overflow: hidden;
         margin: 0px;
-		z-index: 10;
-		width:105%;padding-bottom: 55%;padding-top:0px;
+        z-index: 10;
+        width:112%;padding-bottom: 65%;padding-top:0px;
+        margin-left:-0.4em;
     }
     
 @media only screen and (min-device-width: 480px){
