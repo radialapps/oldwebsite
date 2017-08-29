@@ -95,10 +95,10 @@ div.allelse {
 }
 
 img.gameicon {
-    width:7em;
+    width:calc(5.5em + 12vw);
     display: inline;
     border-radius: 0.4em;
-    margin-left: 2em;
+    margin-left: calc(50% - 6.5em - 12vw);
 }
 
 img.bigimage {
@@ -106,9 +106,9 @@ img.bigimage {
 }
 
 div.demobuybuttons {
-    width:40%;
-    margin-top:-5.8em;  
-    margin-left:10em;
+    width:calc(8em + 5vw);
+    margin-top:calc(-5.3em - 6.2vw);  
+    margin-left:calc(50%);
 }
 
 hr.sep {
@@ -124,10 +124,10 @@ button {
     background-color: #4CAF50; /* Green */
     color: white; 
     width:100%;
-    font-size:0.8em;
+    font-size:calc(0.7em + 0.5vw);
     border: none;
     border-radius: 0.3em;
-    padding: 0.5vw;
+    padding: 0.3em;
     text-align: center;
     text-decoration: none;
     display: inline; 
