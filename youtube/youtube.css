@@ -8,12 +8,17 @@
     }
     
 @media only screen and (min-device-width: 721px){
-        .youtube-player {
+    .youtube-player {
         margin: 5px;
-		width:70%;padding-bottom: 40%;padding-top:0px;
+        width:70%;padding-bottom: 39%;padding-top:0px;
     }
 }
-   
+
+    .youtube-player:hover {
+        outline: 0.35vw solid #673AB7;
+        outline-offset: -0.15vw;
+    }
+
     .youtube-player iframe {
         position: absolute;
         top: 0;

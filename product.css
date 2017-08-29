@@ -36,10 +36,6 @@ ul.instructions {
 }
 
 img {
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease;
   outline: 0px solid #673AB7;
 }
 
