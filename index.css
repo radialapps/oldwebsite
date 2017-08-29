@@ -7,15 +7,26 @@ img.zoomImage {
 }
 
 img.zoomImage.wide {
-    width:51%;
+    width:101%;
 }
+
 img.zoomImage.small {
-    width:16.66%;
+    width:32%;
 }
+
 img.zoomImage:hover {
   outline: 0.35vw solid #673AB7;
   outline-offset: -0.15vw;
   transform: scale(1.05);
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
+}
+
+@media only screen and (min-device-width: 480px){
+    img.zoomImage.wide {
+        width:51%;
+    }
+    img.zoomImage.small {
+        width:16.66%;
+    }
 }
