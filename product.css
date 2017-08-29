@@ -56,10 +56,9 @@ img.screenshot:hover {
 }
 
 img.esrb {
-    width:15%;
+    width:4em;
     float: right;
-    margin-right:10%;
-    margin-top:-4%;
+    margin-right:5%;
 }
 
 div.main {
@@ -179,7 +178,7 @@ button.buy {
     background-color: #388E3C;
 }
 
-@media only screen and (min-device-width: 480px){
+@media only screen and (min-device-width: 720px){
     body {
         font-size: 1em;
     }
@@ -237,6 +236,10 @@ button.buy {
     img.bigimage {
         margin-left:0;
         width:70%;
+    }
+
+    img.esrb {
+        margin-top:-4%;
     }
 
     div.description {    
