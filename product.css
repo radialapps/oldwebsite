@@ -22,6 +22,7 @@ ul, h2 {
 ul.instructions {
     float: left;
     width:90%;
+    padding-right:10%;
     margin-top:-3em;
     margin-left:1.5em;
 }
