@@ -180,7 +180,7 @@ button.buy {
     background-color: #388E3C;
 }
 
-@media only screen and (min-device-width: 720px){
+@media only screen and (min-device-width: 721px){
     body {
         font-size: 1em;
         padding-top:1em;
