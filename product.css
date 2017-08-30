@@ -65,6 +65,7 @@ img.screenshot:hover {
     margin-left:10%;
     padding: 0.625em;
     padding-top: 2em;
+    margin-top: 2em;
     box-shadow: 10px 10px 5px grey;
     display:inline-block;
 }
@@ -183,7 +184,7 @@ button.buy {
     body {
         font-size: 0.9em;
         padding:0;
-        padding-top:0.5em;
+        margin-top:20px;
     }
 
     img.banner {
