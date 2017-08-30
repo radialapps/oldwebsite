@@ -14,22 +14,18 @@ body {
     padding-top:0.5em;
 }
 
-ul, h2 {
-    padding:40px 0;
-    width:800px; 
-    margin:0 auto;
+#divinstructions {
+    margin:auto;
+    width:98%;
+}
+
+#instructions {
+    //list-style-position: inside;
+    //padding-left:0;
 }
 
 a {
     color:#ff0000;
-}
-
-#instructions {
-    float: left;
-    width:90%;
-    padding-right:10%;
-    margin-top:-3em;
-    margin-left:1.5em;
 }
 
 img {
@@ -259,6 +255,7 @@ button.buy {
         width:47%;
         padding: 0em 0em 0em 5%;
     }
+    
     button {
         font-size:1.5vw;
         line-height:1.5vw;

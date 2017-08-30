@@ -53,14 +53,12 @@
             
             <hr>
             
-            <p id="technical">
-                <div style="margin-bottom:0.3em; font-size:0.9em;">Technical Information</div>
-                [# ^^esrb_everyone^^ $$<img src="../ESRB_Everyone.svg" alt="esrb" id="esrb">$$]
-                <b>Download Size:</b> {{download_size}} <br>
-                <b>{{operating_system_display}}</b><br>
-                <b>RAM:</b> {{ram}}<br>
-                <b>Hard Disk Space:</b> {{hdd_space}}
-            </p>
+            <div style="margin-bottom:0.3em; font-size:0.9em;">Technical Information</div>
+            [# ^^esrb_everyone^^ $$<img src="../ESRB_Everyone.svg" alt="esrb" id="esrb">$$]
+            <b>Download Size:</b> {{download_size}} <br>
+            <b>{{operating_system_display}}</b><br>
+            <b>RAM:</b> {{ram}}<br>
+            <b>Hard Disk Space:</b> {{hdd_space}}
             
             [# ^^forum_available^^ $$<hr><a style="text-align:center; display:block;" href="{{forum_link}}" target="_blank">Discuss this game in the forum</a>$$]
             
@@ -108,12 +106,10 @@
         
             <br><hr>
             
-            {{instructions}}
+            <div id="divinstructions">
+                {{instructions}}
+            </div>
             
-            <br>
-            
-            <hr>
-                <b>Please try out the trial demo before buying to be sure that your system supports the game. </b><br>            
             <hr>
         </div>
         
