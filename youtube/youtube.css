@@ -5,14 +5,18 @@
         display: block;
         margin: auto;
         z-index: 10;
-        width:102%;padding-bottom: 58%;padding-top:0px;
+        width:70%;
+        padding-bottom: 39%;
+        padding-top:0px;
     }
     
-@media only screen and (min-width: 769px){
-    .youtube-player {
-        width:70%;padding-bottom: 39%;padding-top:0px;
+    @media only screen and (max-width: 768px) {
+        .youtube-player {
+            width:102%;
+            padding-bottom: 58%;
+            padding-top:0px;
+        }
     }
-}
 
     .youtube-player:hover {
         outline: 0.35vw solid #673AB7;
@@ -33,7 +37,7 @@
         bottom: 0;
         display: block;
         left: 0;
-		z-index: 15;
+        z-index: 15;
         margin: auto;
         max-width: 100%;
         width: 100%;
@@ -58,11 +62,11 @@
         left: 50%;
         top: 50%;
         margin-left: -36px;
-		z-index: 20;
+        z-index: 20;
         margin-top: -36px;
         position: absolute;
-		background-image: url("/youtube/youtube_play.svg");
-		background-repeat: no-repeat;
-		background-size:contain;
+        background-image: url("/youtube/youtube_play.svg");
+        background-repeat: no-repeat;
+        background-size:contain;
         cursor: pointer;
     }
