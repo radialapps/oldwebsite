@@ -35,7 +35,7 @@ img.banner {
     
 #screenshots {
     margin: auto;
-    width: 70%;
+    width: 64%;
 }
     
 img.screenshot {
@@ -218,6 +218,7 @@ button.buy {
         order: 2;
         width:90%;
         padding: 0.4em;
+        margin-top: -1.5em;
     }
 
     #rightwindow {

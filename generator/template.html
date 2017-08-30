@@ -26,8 +26,8 @@
         <div id="description">
             {{description}}
             
-            [# ^^alt_1_p^^ $$(Also available for <a href="{{alt_1_link}}" target="_blank">{{alt_1}}</a>$$] 
-            [# ^^alt_2_p^^ $$and <a href="{{alt_2_link}}" target="_blank">{{alt_2}}</a>$$][# ^^alt_1_p^^ $$)$$] 
+            [# ^^alt_1_p^^ $$(Also available for <a href="{{alt_1_link}}" target="_blank">{{alt_1}}</a>$$][# ^^alt_2_p^^ $!)!$]
+            [# ^^alt_2_p^^ $$and <a href="{{alt_2_link}}" target="_blank">{{alt_2}}</a>$$][# ^^alt_2_p^^ $$)$$]
             
             <br><br>
             [# ^^strategy_guide_present^^ $$<a href="{{strategy_guide}}" target="_blank">Need some help? Get the Official Strategy Guide!</a>$$]
@@ -39,8 +39,30 @@
             <img src="../gicons/{{gicon}}" alt="{{gicon}}" id="gameicon">
             
             <div id="demobuybuttons">
-                <button class="demo" [# ^^demo_disabled^^ $$disabled$$] onclick="location.href='{{demo_link}}';" value="Download"><span>Play Now</span><br><small><small>Download the free trial</small></small></button>
-                <button class="buy" [# ^^buy_disabled^^ $$disabled$$] onclick="window.open('{{buy_link}}');" value="Buy Now"><span>Buy Now</span><br><small><small>Get the full version</small></small></button>
+            
+                <button class="demo" [# ^^demo_disabled^^ $$disabled$$] onclick="location.href='{{demo_link}}';" value="Download">
+                    <span>
+                        Play Now
+                    </span>
+                    <br>
+                    <small>
+                        <small>
+                            [# ^^buy_disabled^^ $$It is free!$$ $!Download the free trial!$]
+                        </small>
+                    </small>
+                </button>
+                
+                <button class="buy" [# ^^buy_disabled^^ $$disabled$$] onclick="window.open('{{buy_link}}');" value="Buy Now">
+                    <span>
+                        Buy Now
+                    </span>
+                    <br>
+                    <small>
+                        <small>
+                            Get the full version
+                        </small>
+                    </small>
+                </button>
             </div>
             
             <br><hr>
@@ -61,7 +83,6 @@
             <b>Hard Disk Space:</b> {{hdd_space}}
             
             [# ^^forum_available^^ $$<hr><a style="text-align:center; display:block;" href="{{forum_link}}" target="_blank">Discuss this game in the forum</a>$$]
-            
             <hr>
         </div>
         
@@ -69,7 +90,6 @@
             [# ^^youtube_available^^ $$<div class="youtube-player" data-id="{{youtube_link}}"></div>$$]
             [# ^^bigimage_available^^ $$<img src="{{bigimage}}" alt="{{bigimage}}" class="bigimage">$$]
 
-            <br>
             <hr>
             
             <div style="text-align:center;">
@@ -104,7 +124,7 @@
                 </tr>
             </table>
         
-            <br><hr>
+            <hr>
             
             <div id="divinstructions">
                 {{instructions}}
