@@ -10,6 +10,9 @@ with open('template.html') as f:
 
 rowno = 0
 
+def replace_special(input):
+    return input.replace('&', '&amp;')
+
 def square_replace(match):
     match = match.group()
     com = match.strip("[]")
@@ -33,6 +36,8 @@ def curl_replace(match):
                 temp = fl.read()
             return re.sub(regexcurl,curl_replace,temp)
         print (match, ' -- ', df[col][rowno])
+        if df[col][rowno][:4] == 'http':
+            return replace_special(df[col][rowno])
         return df[col][rowno]
     else:
         return match
