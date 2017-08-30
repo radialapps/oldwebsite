@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{full_name}} ({{operating_system}}) - RadialApps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../product.css">
+    <link href="/ddmenu/ddmenu.css" rel="stylesheet" type="text/css" />
+    <script src="/ddmenu/ddmenu.js" type="text/javascript"></script>
+    <script src="/youtube/youtube.js" type="text/javascript"></script>
+	<link href="/youtube/youtube.css" rel="stylesheet" type="text/css" />
+	
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-55628977-6','auto');ga('send','pageview');</script>
+</head>
+<body>
+    <a id="ddmenuLink" href="/ddmenu/ddmenu-source.html">Menu</a>
+<p></p>
+
+    <div class="main">
+		<center><img src="../headers/{{banner_top}}" alt="{{banner_top}}" class="banner"></center>
+		<div class="description">
+		<p></p>
+		{{description}}
+		[# ^^alt_1_p^^ $$(Also available for <a href="{{alt_1_link}}" target="_blank">{{alt_1}}</a>$$] 
+        [# ^^alt_2_p^^ $$and <a href="{{alt_2_link}}" target="_blank">{{alt_2}}</a>$$]
+        [# ^^alt_1_p^^ $$)$$] 
+        <br>
+        <br>
+        [# ^^strategy_guide_present^^ $$<a href="{{strategy_guide}}" target="_blank">Need some help? Get the Official Strategy Guide!</a>$$]
+		<hr class="sep">
+		</div>
+		<div class="rightwindow">
+		
+		
+		<img src="../gicons/{{gicon}}" alt="{{gicon}}" class="gameicon">
+		<div class="demobuybuttons">
+            <button class="demo" [# ^^demo_disabled^^ $$disabled$$] onclick="location.href='{{demo_link}}';" value="Download"><span>Play Now</span><br><small><small>Download the free trial</small></small></button>
+            <button class="buy" [# ^^buy_disabled^^ $$disabled$$] onclick="window.open('{{buy_link}}');" value="Buy Now"><span>Buy Now</span><br><small><small>Get the full version</small></small></button>
+		</div>
+		<br><hr class="sep">
+		<p><b>Price: </b>{{price}} [# ^^discounted^^ $$<del>{{maxprice}}</del>$$]</p>
+		<p><b>Category: </b>{{category}}</p>
+		<p><b>Publisher: </b>{{publisher}}</p>
+		<hr class="sep">
+		<p><b>Technical Information</b></p>
+		[# ^^esrb_everyone^^ $$<img src="../ESRB_Everyone.svg" alt="esrb" class="esrb">$$]
+
+		<p>Download Size: {{download_size}} <br>
+		{{operating_system_display}}<br>
+		RAM: {{ram}}<br>
+		Hard Disk Space: {{hdd_space}}</p>
+		[# ^^forum_available^^ $$<hr class="sep"><center><a href="{{forum_link}}" target="_blank">Discuss this game in the forum</a></center>$$]
+        <hr class="sep">
+		</div>
+        <div class="allelse">
+		[# ^^youtube_available^^ $$<center> <div class="youtube-player" data-id="{{youtube_link}}"></div> </center>$$]
+        [# ^^bigimage_available^^ $$<center> <img src="{{bigimage}}" alt="{{bigimage}}" class="bigimage"> </center>$$]
+        
+		<br>
+		<hr class="sep">
+		<br>
+        <center>Click on a screenshot to enlarge!</center><br>
+		<a href="../screens/{{screenshot_1}}" target="_blank">
+		<center><img src="../screens/thumb/{{screenshot_1}}" alt="{{screenshot_1}}" class="screenshot"></a> 
+		<a href="../screens/{{screenshot_2}}" target="_blank">
+		<img src="../screens/thumb/{{screenshot_2}}" alt="{{screenshot_2}}" class="screenshot"></center></a> 
+		<a href="../screens/{{screenshot_3}}" target="_blank">
+		<center><img src="../screens/thumb/{{screenshot_3}}" alt="{{screenshot_3}}" class="screenshot"></a> 
+		<a href="../screens/{{screenshot_4}}" target="_blank">
+		<img src="../screens/thumb/{{screenshot_4}}" alt="{{screenshot_4}}" class="screenshot"></center></a> 
+		
+		<br>
+		<hr class="sep">
+        {{instructions}}
+		<br>
+		<hr class="sep">
+		<p></p>
+		<b>Please try out the trial demo before buying to be sure that your system supports the game. </b><br>
+		<hr class="sep">
+		<p></p>
+		</div><div class="lowerbanner"><center><img src="../headers/{{banner_bottom}}" alt="{{banner_bottom}}" class="banner"></center></div>
+    </div>
+</body>
+</html>
