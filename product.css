@@ -56,6 +56,7 @@ img.screenshot:hover {
     width:4em;
     float: right;
     margin-right:5%;
+    margin-top:-1em;
 }
 
 #main {
@@ -198,13 +199,6 @@ button.buy {
     #instructions {
         list-style-position: inside;
         padding: 0;
-    }
-
-    #esrb {
-        width:4em;
-        float: right;
-        margin-right:5%;
-        margin-top:0;
     }
 
     #main {
