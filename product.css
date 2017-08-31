@@ -32,12 +32,12 @@ img.banner {
     margin: auto;
     width:90%;
 }
-    
+
 #screenshots {
     margin: auto;
     width: 64%;
 }
-    
+
 img.screenshot {
     width:100%;
     outline: 0px solid #673AB7;
@@ -71,8 +71,8 @@ img.screenshot:hover {
     display:inline-block;
 }
 
-#description {    
-    background-color:white; 
+#description {
+    background-color:white;
     float: left;
     width:47%;
     padding: 0em 0em 0em 5%;
@@ -89,7 +89,7 @@ img.screenshot:hover {
     word-wrap: break-word;
     width:100%;
     padding:0%;
-}   
+}
 
 #gameicon {
     width:40%;
@@ -123,19 +123,19 @@ blockquote span{
 button {
     font-family: Trebuchet MS;
     background-color: #4CAF50; /* Green */
-    color: white; 
+    color: white;
     width:100%;
     border: none;
     border-radius: 0.3em;
     padding: 0.3em;
     text-align: center;
     text-decoration: none;
-    display: inline; 
+    display: inline;
     vertical-align: middle;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    
+
     font-size:1.5vw;
     line-height:1.5vw;
     margin: 0.2vw 0.2vw;
@@ -192,10 +192,10 @@ button.buy {
         width:102%;
     }
 
-    #screenshots {        
+    #screenshots {
         width: 100%;
     }
-    
+
     #instructions {
         list-style-position: inside;
         padding: 0;
@@ -205,7 +205,7 @@ button.buy {
         width:100%;
         margin:0 auto;
         padding: 0.0em;
-        display: flex; 
+        display: flex;
         flex-direction: column;
     }
 
@@ -248,10 +248,10 @@ button.buy {
 
     #demobuybuttons {
         width:calc(8em + 5vw);
-        margin-top:calc(-5.3em - 6.2vw);  
+        margin-top:calc(-5.3em - 6.2vw);
         margin-left:calc(50%);
     }
-    
+
     button {
         font-size:calc(0.7em + 0.5vw);
         line-height: calc(0.9em + 0.5vw);
