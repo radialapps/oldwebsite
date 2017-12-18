@@ -12,6 +12,9 @@ body {
     width: 100%;
     padding-top:1em;
     padding-bottom:2em;
+    /* Image courtsey https://wallpaperscraft.com/image/santa_claus_set_background_lettering_snowflake_50786_2048x2048.jpg */
+    background-image: url("santa.jpg");
+    background-repeat: repeat;
 }
 
 #mobilename {
