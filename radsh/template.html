@@ -19,6 +19,24 @@
 </head>
 
 <body>
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Product",
+          "category": "{{category}}",
+          "logo": "http://radialapps.com/gicons/{{gicon}}",
+          "description" : "{{description_short}}",
+          "name": "{{full_name}}",
+          "offers": {
+            "@type": "Offer",
+            "availability": "http://schema.org/InStock",
+            "price": "{{price_num}}",
+            "priceCurrency": "USD"
+          }
+        }
+    </script>
+
     <div id="mobilename">{{full_name}} ({{operating_system}})</div>
 
     <a id="ddmenuLink" href="/ddmenu/ddmenu-source.html">Menu</a>
@@ -67,10 +85,6 @@
                     </small>
                 </button>
             </div>
-
-            <br><hr>
-
-            <center><b>{{full_name}}</b></center>
 
             <hr>
 
