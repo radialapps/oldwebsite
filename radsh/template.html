@@ -21,13 +21,28 @@
 <body>
 
     <script type="application/ld+json">
+        [
         {
           "@context": "http://schema.org",
-          "@type": "Product",
-          "category": "{{category}}",
-          "logo": "http://radialapps.com/gicons/{{gicon}}",
-          "description" : "{{description_short}}",
+          "@type": "VideoGame",
           "name": "{{full_name}}",
+          "description" : "{{description_short}}",
+          "url": "http://radialapps.com/{{filename}}/{{code_name}}.html",
+          "operatingSystem": "{{operating_system}}",
+          "playMode": "SinglePlayer",
+          "memoryRequirements": "{{ram}}",
+          "screenshot": "http://radialapps.com/screens/{{screenshot_1}}",
+          "storageRequirements": "{{hdd_space}}",
+          "publisher": "{{publisher}}",
+          "keywords": "{{category}}",
+          "thumbnailUrl": "http://radialapps.com/gicons/{{gicon}}",
+          "genre": "{{genre}}",
+          "applicationSubCategory": "{{genre}}",
+          "fileSize": "{{download_size}}",
+          "contentRating": "{{rating}}",
+          "applicationCategory": "Game",
+          "sameAs": "{{same_as}}",
+          [# ^^demo_disabled^^ $!"downloadUrl":"{{demo_link}}",!$]
           "offers": {
             "@type": "Offer",
             "availability": "http://schema.org/InStock",
@@ -35,6 +50,7 @@
             "priceCurrency": "USD"
           }
         }
+        ]
     </script>
 
     <div id="mobilename">{{full_name}} ({{operating_system}})</div>
